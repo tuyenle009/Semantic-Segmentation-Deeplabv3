@@ -1,8 +1,7 @@
 import torch
 import argparse
 from torchvision.datasets import VOCSegmentation
-
-
+import cv2
 
 def get_args():
     parser = argparse.ArgumentParser("Train deeplab v3")
